@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "robreg";
+  src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "roblight";
+  src: url("../assets/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "robmedium";
+  src: url("../assets/fonts/Roboto-Medium.ttf");
+}
+
+:root {
+  --clr-bg-dark: #2b2b2b;
+  --clr-bg-light: #ffffff;
+
+  --clr-text-dark: #1f2937;
+  --clr-text-light: #fafafa;
+}
+
+.dark {
+  background-color: var(--clr-bg-dark);
+  color: var(--clr-text-light);
+}
+
+.light {
+  background-color: var(--clr-bg-light);
+  color: var(--clr-text-dark);
+}
